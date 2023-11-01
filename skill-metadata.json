@@ -4,11 +4,11 @@
         "repo": "https://github.com/MycroftAI/fallback-unknown",
         "tree": "05493156872d9affc98276b41fbc29398d3bc0df",
         "name": "fallback-unknown",
-        "github_username": "mycroftai",
+        "github_username": "doboai",
         "title": "Unknown Handler",
         "display_name": "Unknown Handler",
         "short_desc": "Capture unrecognized _Utterances_",
-        "description": "Mycroft doesn't know how to do or answer everything (yet).  This _fallback_ is how Mycroft lets you know that, unfortunately, it can't help with what you said.\n\nBut wait, there is still hope!  Mycroft is working to get smarter with help from friends.  For who have selected to [Opt In to the Open Dataset](https://home.mycroft.ai/#/setting/basic#opendataset), these missed phrases are aggregated and analyzed to help identify what the world _wants_ their voice assistant to do that it can't yet.  So if millions of people start asking for guava growing tips, we'll promote this as an idea to be handled as a default Skill.",
+        "description": "Mycroft doesn't know how to do or answer everything (yet).  This _fallback_ is how Mycroft lets you know that, unfortunately, it can't help with what you said.\n\nBut wait, there is still hope!  Mycroft is working to get smarter with help from friends.  For who have selected to [Opt In to the Open Dataset](https://home.dobo.ai/#/setting/basic#opendataset), these missed phrases are aggregated and analyzed to help identify what the world _wants_ their voice assistant to do that it can't yet.  So if millions of people start asking for guava growing tips, we'll promote this as an idea to be handled as a default Skill.",
         "examples": [
             "How do I make my guava blue?",
             "I need a pizza.",
@@ -16,8 +16,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -41,7 +41,7 @@
         "repo": "https://github.com/MycroftAI/fallback-wolfram-alpha",
         "tree": "10168fb3012862aa6cc064c5fa13e3411a150bb1",
         "name": "fallback-wolfram-alpha",
-        "github_username": "mycroftai",
+        "github_username": "doboai",
         "title": "Wolfram Alpha",
         "display_name": "Wolfram Alpha",
         "short_desc": "Use Wolfram Alpha for general knowledge questions",
@@ -56,8 +56,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -78,12 +78,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-alarm": {
-        "skill_gid": "mycroft-alarm|21.02",
+    "dobo-alarm": {
+        "skill_gid": "dobo-alarm|21.02",
         "repo": "https://github.com/MycroftAI/skill-alarm",
         "tree": "25ecc0261abee644257a81f20f020bb92f462970",
-        "name": "mycroft-alarm",
-        "github_username": "mycroftai",
+        "name": "dobo-alarm",
+        "github_username": "doboai",
         "title": "Set alarms",
         "display_name": "Set alarms",
         "short_desc": "Set alarms with Mycroft",
@@ -102,8 +102,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -120,12 +120,12 @@
             "color": "#5B6984"
         }
     },
-    "mycroft-audio-record": {
-        "skill_gid": "mycroft-audio-record|21.02",
+    "dobo-audio-record": {
+        "skill_gid": "dobo-audio-record|21.02",
         "repo": "https://github.com/MycroftAI/skill-audio-record",
         "tree": "4bad1b9627908b74d76b0acb5603e6a501ad2b76",
-        "name": "mycroft-audio-record",
-        "github_username": "mycroftai",
+        "name": "dobo-audio-record",
+        "github_username": "doboai",
         "title": "Audio Recorder",
         "display_name": "Audio Recorder",
         "short_desc": "Record and playback audio",
@@ -138,8 +138,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -160,16 +160,16 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-configuration": {
-        "skill_gid": "mycroft-configuration|21.02",
+    "dobo-configuration": {
+        "skill_gid": "dobo-configuration|21.02",
         "repo": "https://github.com/MycroftAI/skill-configuration",
         "tree": "9231778e959c65a4f8156923fb26d11483d72ea0",
-        "name": "mycroft-configuration",
-        "github_username": "mycroftai",
+        "name": "dobo-configuration",
+        "github_username": "doboai",
         "title": "Device Configuration",
         "display_name": "Device Configuration",
-        "short_desc": "Synchronize your Device Settings with [Home](https://home.mycroft.ai)",
-        "description": "User and device settings from [home.mycroft.ai](https://home.mycroft.ai) are\nsynchronized with your Devices.  This Skill performs that synchronization and\nallows you to check your settings.\n\nYou can also change the technology used to perform Wake Word spotting.  This is\nthe system that wakes the device up when you say \"Hey Mycroft\".",
+        "short_desc": "Synchronize your Device Settings with [Home](https://home.dobo.ai)",
+        "description": "User and device settings from [home.dobo.ai](https://home.dobo.ai) are\nsynchronized with your Devices.  This Skill performs that synchronization and\nallows you to check your settings.\n\nYou can also change the technology used to perform Wake Word spotting.  This is\nthe system that wakes the device up when you say \"Hey Mycroft\".",
         "examples": [
             "Configuration update.",
             "Update config.",
@@ -181,8 +181,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -202,16 +202,16 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-date-time": {
-        "skill_gid": "mycroft-date-time|21.02",
+    "dobo-date-time": {
+        "skill_gid": "dobo-date-time|21.02",
         "repo": "https://github.com/MycroftAI/skill-date-time",
         "tree": "f08af2f504e687916e8519e6e9e2adcb70b6934d",
-        "name": "mycroft-date-time",
-        "github_username": "mycroftai",
+        "name": "dobo-date-time",
+        "github_username": "doboai",
         "title": "Date and Time",
         "display_name": "Date and Time",
         "short_desc": "Get the time, date, day of the week",
-        "description": "Get the local time or time for major cities around the world.  Times\nare given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the\nTime Format setting at [Home](https://home.mycroft.ai/#/setting/basic)\n\nTime can optionally be shown on a display, like a digital clock.  See\nthe [Skill Setting](https://home.mycroft.ai/#/skill).",
+        "description": "Get the local time or time for major cities around the world.  Times\nare given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the\nTime Format setting at [Home](https://home.dobo.ai/#/setting/basic)\n\nTime can optionally be shown on a display, like a digital clock.  See\nthe [Skill Setting](https://home.dobo.ai/#/skill).",
         "examples": [
             "What time is it?",
             "What time is it in Paris?",
@@ -222,8 +222,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -245,12 +245,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-fallback-duck-duck-go": {
-        "skill_gid": "mycroft-fallback-duck-duck-go|21.02",
+    "dobo-fallback-duck-duck-go": {
+        "skill_gid": "dobo-fallback-duck-duck-go|21.02",
         "repo": "https://github.com/MycroftAI/fallback-duckduckgo",
         "tree": "cb8a4e48fadd3fd0bcdba6db65d037f3fa902b08",
-        "name": "mycroft-fallback-duck-duck-go",
-        "github_username": "mycroftai",
+        "name": "dobo-fallback-duck-duck-go",
+        "github_username": "doboai",
         "title": "DuckDuckGo",
         "display_name": "DuckDuckGo",
         "short_desc": "Use DuckDuckGo to answer questions",
@@ -262,8 +262,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -284,16 +284,16 @@
             "color": "#de5833"
         }
     },
-    "mycroft-hello-world": {
-        "skill_gid": "mycroft-hello-world|21.02",
+    "dobo-hello-world": {
+        "skill_gid": "dobo-hello-world|21.02",
         "repo": "https://github.com/MycroftAI/skill-hello-world",
         "tree": "2b84a1ef6d9ea2bf697a6c90b1b227590e538d25",
-        "name": "mycroft-hello-world",
-        "github_username": "mycroftai",
+        "name": "dobo-hello-world",
+        "github_username": "doboai",
         "title": "Hello World",
         "display_name": "Hello World",
         "short_desc": "Introductory Skill so that Skill Authors can see how a Mycroft Skill is put together",
-        "description": "This is a basic Hello Word Skill that takes an _Utterance_ from the user and provides a voice response - a _Dialog_. This Skill demonstrates the basic directory and file structure of a Mycroft Skill, and is a good first Skill to study if you are interested in developing Skills for the Mycroft ecosystem.\n\nIf you want to write **Skills** for Mycroft, Documentation is available:\n\n* [Mycroft Skills Kit](https://mycroft.ai/documentation/skills/msk/)\n* [Developing a new Skill](https://mycroft.ai/documentation/skills/introduction-developing-skills/)\n* [Skill Settings](https://mycroft.ai/documentation/skills/skill-settings/)\n* [Automatic testing of your Mycroft Skill](https://mycroft.ai/documentation/skills/automatic-testing/)\n* [Skill Acceptance Process](https://mycroft.ai/documentation/skills/skills-acceptance-process/)\n* [Mycroft Skills Manager](https://mycroft.ai/documentation/msm/)\n* [Mycroft Message Bus](https://mycroft.ai/documentation/message-bus/)",
+        "description": "This is a basic Hello Word Skill that takes an _Utterance_ from the user and provides a voice response - a _Dialog_. This Skill demonstrates the basic directory and file structure of a Mycroft Skill, and is a good first Skill to study if you are interested in developing Skills for the Mycroft ecosystem.\n\nIf you want to write **Skills** for Mycroft, Documentation is available:\n\n* [Mycroft Skills Kit](https://dobo.ai/documentation/skills/msk/)\n* [Developing a new Skill](https://dobo.ai/documentation/skills/introduction-developing-skills/)\n* [Skill Settings](https://dobo.ai/documentation/skills/skill-settings/)\n* [Automatic testing of your Mycroft Skill](https://dobo.ai/documentation/skills/automatic-testing/)\n* [Skill Acceptance Process](https://dobo.ai/documentation/skills/skills-acceptance-process/)\n* [Mycroft Skills Manager](https://dobo.ai/documentation/msm/)\n* [Mycroft Message Bus](https://dobo.ai/documentation/message-bus/)",
         "examples": [
             "Hello world.",
             "How are you?",
@@ -301,8 +301,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -322,16 +322,16 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-installer": {
-        "skill_gid": "mycroft-installer|21.02",
+    "dobo-installer": {
+        "skill_gid": "dobo-installer|21.02",
         "repo": "https://github.com/MycroftAI/skill-installer",
         "tree": "88a01f0ee0785456ab41756cc6182846f975f6dc",
-        "name": "mycroft-installer",
-        "github_username": "mycroftai",
+        "name": "dobo-installer",
+        "github_username": "doboai",
         "title": "Installer",
         "display_name": "Installer",
         "short_desc": "Add and remove Mycroft Skills",
-        "description": "Add and remove Skills using your voice or from the [Marketplace](https://market.mycroft.ai).\nYou can also assist skill authors in testing new versions of their skills by\nusing \"install prevew version\" to gain access to skills still under development\nand testing.  If you do this, please be consicious the skill may be in an\nunstable development state and report issues to the author appropriately.\n\nYou can also install Skills that are not officially released by entering the\nSkill's GitHub repository URL in the [Installer's web user interface](https://home.mycroft.ai/#/skill).\n\nSkills are ultimately installed using the [Mycroft Skill Manager (msm)](https://mycroft.ai/documentation/msm).  If verbally installing, Mycroft will speak a list of possible matches for\nambiguous names -- just pick the skill you want from the list read to you.",
+        "description": "Add and remove Skills using your voice or from the [Marketplace](https://market.dobo.ai).\nYou can also assist skill authors in testing new versions of their skills by\nusing \"install prevew version\" to gain access to skills still under development\nand testing.  If you do this, please be consicious the skill may be in an\nunstable development state and report issues to the author appropriately.\n\nYou can also install Skills that are not officially released by entering the\nSkill's GitHub repository URL in the [Installer's web user interface](https://home.dobo.ai/#/skill).\n\nSkills are ultimately installed using the [Mycroft Skill Manager (msm)](https://dobo.ai/documentation/msm).  If verbally installing, Mycroft will speak a list of possible matches for\nambiguous names -- just pick the skill you want from the list read to you.",
         "examples": [
             "Install coin flip.",
             "Install the preview version of coin flip.",
@@ -341,8 +341,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -366,12 +366,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-ip": {
-        "skill_gid": "mycroft-ip|21.02",
+    "dobo-ip": {
+        "skill_gid": "dobo-ip|21.02",
         "repo": "https://github.com/MycroftAI/skill-ip",
         "tree": "0e836fb98d8113475c808c64bc10424e8436d5ef",
-        "name": "mycroft-ip",
-        "github_username": "mycroftai",
+        "name": "dobo-ip",
+        "github_username": "doboai",
         "title": "Device IP Address",
         "display_name": "Device IP Address",
         "short_desc": "Network connection information",
@@ -385,8 +385,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -407,12 +407,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-joke": {
-        "skill_gid": "mycroft-joke|21.02",
+    "dobo-joke": {
+        "skill_gid": "dobo-joke|21.02",
         "repo": "https://github.com/MycroftAI/skill-joke",
         "tree": "9c5c602dcfaed29ac54abc5673ee55fa16b815ae",
-        "name": "mycroft-joke",
-        "github_username": "mycroftai",
+        "name": "dobo-joke",
+        "github_username": "doboai",
         "title": "Jokes",
         "display_name": "Jokes",
         "short_desc": "Let Mycroft brighten your day with a little humor",
@@ -425,8 +425,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -447,12 +447,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-mark-1-demo": {
-        "skill_gid": "mycroft-mark-1-demo|21.02",
+    "dobo-mark-1-demo": {
+        "skill_gid": "dobo-mark-1-demo|21.02",
         "repo": "https://github.com/MycroftAI/skill-mark1-demo",
         "tree": "2e110288ee85b73bba0673d465ae687d570522fd",
-        "name": "mycroft-mark-1-demo",
-        "github_username": "mycroftai",
+        "name": "dobo-mark-1-demo",
+        "github_username": "doboai",
         "title": "Mark 1 Demo",
         "display_name": "Mark 1 Demo",
         "short_desc": "Showcase the capabilities of the Mark 1",
@@ -462,8 +462,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -482,16 +482,16 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-mark-1": {
-        "skill_gid": "mycroft-mark-1|21.02",
-        "repo": "https://github.com/MycroftAI/mycroft-mark-1",
+    "dobo-mark-1": {
+        "skill_gid": "dobo-mark-1|21.02",
+        "repo": "https://github.com/MycroftAI/dobo-mark-1",
         "tree": "ba303c619e87d520a162bc2601edbaad90b446aa",
-        "name": "mycroft-mark-1",
-        "github_username": "MycroftAI",
+        "name": "dobo-mark-1",
+        "github_username": "DoboAI",
         "title": "Mycroft Mark 1",
         "display_name": "Mycroft Mark 1",
         "short_desc": "Customize your Mark 1",
-        "description": "The Mycroft Mark 1 has several unique capabilities which this Skill lets you control.\n\n### Eye Color\nThe Mark 1 has beautiful eyes -- and you get to pick their color!  Set them to\na named color (\"blue\", \"magenta\", \"teal\", etc) or any color using RGB values.\nPleas see the [color](https://github.com/MycroftAI/mycroft-mark-1/blob/dev/dialog/en-us/colors.value)\nlist for more options\n\n###  Faceplate Brightness\nSet the faceplate to a specific brightness, or allow it to automatically adjust\nits brightness level to dim at night.",
+        "description": "The Mycroft Mark 1 has several unique capabilities which this Skill lets you control.\n\n### Eye Color\nThe Mark 1 has beautiful eyes -- and you get to pick their color!  Set them to\na named color (\"blue\", \"magenta\", \"teal\", etc) or any color using RGB values.\nPleas see the [color](https://github.com/DoboAI/dobo-mark-1/blob/dev/dialog/en-us/colors.value)\nlist for more options\n\n###  Faceplate Brightness\nSet the faceplate to a specific brightness, or allow it to automatically adjust\nits brightness level to dim at night.",
         "examples": [
             "Set your eye color to pink.",
             "Change your eye color to the default.",
@@ -502,8 +502,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -523,12 +523,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-naptime": {
-        "skill_gid": "mycroft-naptime|21.02",
+    "dobo-naptime": {
+        "skill_gid": "dobo-naptime|21.02",
         "repo": "https://github.com/MycroftAI/skill-naptime",
         "tree": "529ef9df1df29c9518ed5ddf452ecf402340672e",
-        "name": "mycroft-naptime",
-        "github_username": "mycroftai",
+        "name": "dobo-naptime",
+        "github_username": "doboai",
         "title": "Naptime",
         "display_name": "Naptime",
         "short_desc": "Put Mycroft to sleep when you don't want to be disturbed",
@@ -540,8 +540,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -563,16 +563,16 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-npr-news": {
-        "skill_gid": "mycroft-npr-news|21.02",
+    "dobo-npr-news": {
+        "skill_gid": "dobo-npr-news|21.02",
         "repo": "https://github.com/MycroftAI/skill-npr-news",
         "tree": "1a9b3f8a70a6da4fc52b2822aaba61d3c053a6fa",
-        "name": "mycroft-npr-news",
-        "github_username": "mycroftai",
+        "name": "dobo-npr-news",
+        "github_username": "doboai",
         "title": "Latest news",
         "display_name": "Latest news",
         "short_desc": "Listen to the latest news report from your favorite broadcast",
-        "description": "Play the latest news from an RSS audio feed. Your device location will be used to provide a local feed from your country if available. Otherwise, the National Public Radio (NPR)\nHourly News will be used. You can also choose your own default or add a custom audio feed at: [home.mycroft.ai](https://home.mycroft.ai/#/skill).\n\nSupported stations include:\n- Associated Press (AP) Hourly Radio News\n- [AU] ABC News Australia\n- [BE] VRT Nieuws\n- [CA] CBC News\n- [DE] DLF\n- [DE] WDR\n- [FI] YLE\n- [SE] Ekot\n- [UK] BBC News\n- [US] Fox News\n- [US] NPR News Now\n- [US] PBS NewsHour.",
+        "description": "Play the latest news from an RSS audio feed. Your device location will be used to provide a local feed from your country if available. Otherwise, the National Public Radio (NPR)\nHourly News will be used. You can also choose your own default or add a custom audio feed at: [home.dobo.ai](https://home.dobo.ai/#/skill).\n\nSupported stations include:\n- Associated Press (AP) Hourly Radio News\n- [AU] ABC News Australia\n- [BE] VRT Nieuws\n- [CA] CBC News\n- [DE] DLF\n- [DE] WDR\n- [FI] YLE\n- [SE] Ekot\n- [UK] BBC News\n- [US] Fox News\n- [US] NPR News Now\n- [US] PBS NewsHour.",
         "examples": [
             "Play the news.",
             "Play the BBC news.",
@@ -582,8 +582,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -602,23 +602,23 @@
             "color": "#000000"
         }
     },
-    "mycroft-pairing": {
-        "skill_gid": "mycroft-pairing|21.02",
-        "repo": "https://github.com/MycroftAI/skill-pairing",
+    "dobo-pairing": {
+        "skill_gid": "dobo-pairing|21.02",
+        "repo": "https://github.com/DoboAI/skill-pairing",
         "tree": "33b93adc8d69c1ed3b6d99867b894d4bb4f626bc",
-        "name": "mycroft-pairing",
-        "github_username": "mycroftai",
+        "name": "dobo-pairing",
+        "github_username": "doboai",
         "title": "Pairing",
         "display_name": "Pairing",
-        "short_desc": "Connect your device to the Mycroft server - [Home](https://home.mycroft.ai/)",
-        "description": "The default backend to provide services for Mycroft users is\n[Home](https://home.mycroft.ai/).  Pairing a device with Home provides access\nto privacy-protecting Speech to Text, Wolfram Alpha and other such services,\nas well as easy configuration for all your Mycroft devices.",
+        "short_desc": "Connect your device to the Mycroft server - [Home](https://home.dobo.ai/)",
+        "description": "The default backend to provide services for Mycroft users is\n[Home](https://home.dobo.ai/).  Pairing a device with Home provides access\nto privacy-protecting Speech to Text, Wolfram Alpha and other such services,\nas well as easy configuration for all your Mycroft devices.",
         "examples": [
             "Pair my device."
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -638,12 +638,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-personal": {
-        "skill_gid": "mycroft-personal|21.02",
+    "dobo-personal": {
+        "skill_gid": "dobo-personal|21.02",
         "repo": "https://github.com/MycroftAI/skill-personal",
         "tree": "30fff314872e7b0ab1eb6803a64427251b8d9f82",
-        "name": "mycroft-personal",
-        "github_username": "mycroftai",
+        "name": "dobo-personal",
+        "github_username": "doboai",
         "title": "Mycroft's Background",
         "display_name": "Mycroft's Background",
         "short_desc": "Learn history and personality of Mycroft",
@@ -657,8 +657,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             },
             {
                 "name": "Poem penned by community member Jelmer Prins"
@@ -679,16 +679,16 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-playback-control": {
-        "skill_gid": "mycroft-playback-control|21.02",
+    "dobo-playback-control": {
+        "skill_gid": "dobo-playback-control|21.02",
         "repo": "https://github.com/MycroftAI/skill-playback-control",
         "tree": "d7dc73a5a1232073cc4c164b71d937223a261cb2",
-        "name": "mycroft-playback-control",
-        "github_username": "mycroftai",
+        "name": "dobo-playback-control",
+        "github_username": "doboai",
         "title": "Playback Control",
         "display_name": "Playback Control",
         "short_desc": "Common playback control system",
-        "description": "This Skill doesn't do anything by itself, but it provides an important common\nlanguage for audio playback skills.  By handling simple phrases like\n'pause', this one Skill can turn around and rebroadcast the [messagebus](https://mycroft.ai/documentation/message-bus/)\ncommand `mycroft.audio.service.pause`, allowing several music services to share\ncommon terminology such as \"pause\".\n\nAdditionally, this implements the common Play handler.  This allows playback\nservices to negotiate which is best suited to play back a specific request.\nThis capability is used by the [Spotify](https://github.com/forslund/spotify-skill) and [Pandora](https://github.com/mycroftai/pianobar-skill) Skills, among others.",
+        "description": "This Skill doesn't do anything by itself, but it provides an important common\nlanguage for audio playback skills.  By handling simple phrases like\n'pause', this one Skill can turn around and rebroadcast the [messagebus](https://dobo.ai/documentation/message-bus/)\ncommand `dobo.audio.service.pause`, allowing several music services to share\ncommon terminology such as \"pause\".\n\nAdditionally, this implements the common Play handler.  This allows playback\nservices to negotiate which is best suited to play back a specific request.\nThis capability is used by the [Spotify](https://github.com/forslund/spotify-skill) and [Pandora](https://github.com/doboai/pianobar-skill) Skills, among others.",
         "examples": [
             "Play my summer playlist.",
             "Play Pandora.",
@@ -701,8 +701,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -725,12 +725,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-reminder": {
-        "skill_gid": "mycroft-reminder|21.02",
+    "dobo-reminder": {
+        "skill_gid": "dobo-reminder|21.02",
         "repo": "https://github.com/MycroftAI/skill-reminder",
         "tree": "a2e615c09bfe5ebf6471f10167e2f9dff858c872",
-        "name": "mycroft-reminder",
-        "github_username": "mycroftai",
+        "name": "dobo-reminder",
+        "github_username": "doboai",
         "title": "Set reminders",
         "display_name": "Set reminders",
         "short_desc": "Set single and repeating reminders for tasks",
@@ -744,8 +744,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -763,12 +763,12 @@
             "color": "#FD8E4C"
         }
     },
-    "mycroft-singing": {
-        "skill_gid": "mycroft-singing|21.02",
+    "dobo-singing": {
+        "skill_gid": "dobo-singing|21.02",
         "repo": "https://github.com/MycroftAI/skill-singing",
         "tree": "3cfd5007ac2b0c728bb5557ca68a99eea20e818f",
-        "name": "mycroft-singing",
-        "github_username": "mycroftai",
+        "name": "dobo-singing",
+        "github_username": "doboai",
         "title": "Singing",
         "display_name": "Singing",
         "short_desc": "Mycroft sings lyrics to some popular songs",
@@ -778,8 +778,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -801,12 +801,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-speak": {
-        "skill_gid": "mycroft-speak|21.02",
+    "dobo-speak": {
+        "skill_gid": "dobo-speak|21.02",
         "repo": "https://github.com/MycroftAI/skill-speak",
         "tree": "727790448a41ce1ec0ab78e5a1582b6b966980e9",
-        "name": "mycroft-speak",
-        "github_username": "mycroftai",
+        "name": "dobo-speak",
+        "github_username": "doboai",
         "title": "Speak",
         "display_name": "Speak",
         "short_desc": "Make Mycroft repeat whatever you want",
@@ -818,8 +818,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -839,12 +839,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-spelling": {
-        "skill_gid": "mycroft-spelling|21.02",
+    "dobo-spelling": {
+        "skill_gid": "dobo-spelling|21.02",
         "repo": "https://github.com/MycroftAI/skill-spelling",
         "tree": "89c154850cf79f3b2544337e42874adc9e0c7520",
-        "name": "mycroft-spelling",
-        "github_username": "mycroftai",
+        "name": "dobo-spelling",
+        "github_username": "doboai",
         "title": "Spelling",
         "display_name": "Spelling",
         "short_desc": "Let Mycroft help you spell words",
@@ -857,8 +857,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -876,16 +876,16 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-spotify": {
-        "skill_gid": "mycroft-spotify|21.02",
+    "dobo-spotify": {
+        "skill_gid": "dobo-spotify|21.02",
         "repo": "https://github.com/forslund/spotify-skill",
         "tree": "3b003beea093618007554e05b66a6749848fc75e",
-        "name": "mycroft-spotify",
+        "name": "dobo-spotify",
         "github_username": "forslund",
         "title": "Play Spotify",
         "display_name": "Play Spotify",
         "short_desc": "Listen to music from your Spotify Premium music account.  **Spotify has disabled the API access for the skill, you will need to create your own. Instructions below.**  To use this skill currently you will need to create your own application using [The Spotify developer dashboard](https://developer.spotify.com/dashboard/) due to Spotify policy (see *Spotify Authentication reason* for some details). Detailed instructions are available below under *Personal Access Token*.  Listen to music from your Spotify Premium music account",
-        "description": "Stream your favorite music from the popular Spotify music service. Spotify\nPremium users can search and play tracks from their own playlists or the huge\nSpotify music library.\n\nYou can also control your Mycroft device using the Spotify Connect system.\nSo play DJ on your phone while listening on Mycroft!\n\n### This skill doesn't do any playback\nThis skill works with the Spotify Connect protocol to interact with Spotify devices, but doesn't perform any playback itself. If you want playback on the hosting Mycroft device, you'll need to set up a player yourself.\n\nFor Picroft users, [raspotify](https://github.com/dtcooper/raspotify) is a good choice.\n\nInstall it and then make changes to `/etc/default/raspotify.conf` as follows\n\n- It is recommended to set the DEVICE_NAME to the name of the Mycroft unit (as registered at home.mycroft.ai) for automatic identification:\n\n`DEVICE_NAME=\"<My Mycroft Unit>\"\n\n- set your Spotify username and password under `OPTIONS`\n\n`OPTIONS=\"--username <My Username> --password <My Password>\"`\n\n\nYou make sound work with raspotify you may need to edit `/lib/systemd/system/raspotify.service` and there change `User` and `Group` from `raspotify`to `pi`.\n\n\nFor desktop users the official spotify player works well.\n\nThe exception to this is the Mark-1 which is shipped with a spotify player library.\n\n### Authorization:\nThis Skill uses two different methods of authentication. Both need to be filled in correctly for the **Skill** to function correctly.\n\n#### Personal Access Token\n\n##### Creating access token\nFrom the [Spotify developer dashboard](https://developer.spotify.com/dashboard/)\n\n1. Click \"CREATE AN APP\"\n1. Fill out the create application form\n1. Click on the new app and choose EDIT SETTINGS\n1. Under Redirect URIs add `https://localhost:8888`\n\nMore info can be found [here](https://developer.spotify.com/documentation/general/guides/app-settings/).\n\nThe config will by default be stored in the `XDG_CONFIG` directory, which is often `~/.configi`, so by default the generated files are found in `~/.config/spotipy/`. If you wish to use another directory you can set the environment variable `SPOTIFY_SKILL_CREDS_DIR` to the directory where you'd like to store the config. This is useful when running in docker for example.\n\n##### Connecting spotify skill\nAfter installing `mycroft-spotify`, from the mycroft-core folder run the auth.py script in the mycroft-spotify folder\n\n```\nsource venv-activate.sh\npython /opt/mycroft/skills/mycroft-spotify.forslund/auth.py\n```\n\nThe script will try to guide you through connecting a developer account to the skill and store the credentials locally.\n\n#### Username and password to authenticate a Mycroft device\nIn addition to account details, Mycroft needs to be authorized as a **device** for Spotify. To do this, we use your username and password for Spotify. These must be entered as well, or you will receive an error message like:\n\n`I couldn't find any Spotify devices.  This skill requires a Spotify Premium account to work properly.`\n\nwhen you try to use the **Skill** on a Mycroft device.\n\nIf you log in to Spotify using Facebook, your password will be your _Facebook_ password, but your Spotify device username. You can get your Spotify device username [here](https://www.spotify.com/us/account/set-device-password/).\n\n_NOTE: You MUST have a Premium Spotify account to use this **Skill**. It will NOT work with a free Spotify account._",
+        "description": "Stream your favorite music from the popular Spotify music service. Spotify\nPremium users can search and play tracks from their own playlists or the huge\nSpotify music library.\n\nYou can also control your Mycroft device using the Spotify Connect system.\nSo play DJ on your phone while listening on Mycroft!\n\n### This skill doesn't do any playback\nThis skill works with the Spotify Connect protocol to interact with Spotify devices, but doesn't perform any playback itself. If you want playback on the hosting Mycroft device, you'll need to set up a player yourself.\n\nFor Picroft users, [raspotify](https://github.com/dtcooper/raspotify) is a good choice.\n\nInstall it and then make changes to `/etc/default/raspotify.conf` as follows\n\n- It is recommended to set the DEVICE_NAME to the name of the Mycroft unit (as registered at home.dobo.ai) for automatic identification:\n\n`DEVICE_NAME=\"<My Mycroft Unit>\"\n\n- set your Spotify username and password under `OPTIONS`\n\n`OPTIONS=\"--username <My Username> --password <My Password>\"`\n\n\nYou make sound work with raspotify you may need to edit `/lib/systemd/system/raspotify.service` and there change `User` and `Group` from `raspotify`to `pi`.\n\n\nFor desktop users the official spotify player works well.\n\nThe exception to this is the Mark-1 which is shipped with a spotify player library.\n\n### Authorization:\nThis Skill uses two different methods of authentication. Both need to be filled in correctly for the **Skill** to function correctly.\n\n#### Personal Access Token\n\n##### Creating access token\nFrom the [Spotify developer dashboard](https://developer.spotify.com/dashboard/)\n\n1. Click \"CREATE AN APP\"\n1. Fill out the create application form\n1. Click on the new app and choose EDIT SETTINGS\n1. Under Redirect URIs add `https://localhost:8888`\n\nMore info can be found [here](https://developer.spotify.com/documentation/general/guides/app-settings/).\n\nThe config will by default be stored in the `XDG_CONFIG` directory, which is often `~/.configi`, so by default the generated files are found in `~/.config/spotipy/`. If you wish to use another directory you can set the environment variable `SPOTIFY_SKILL_CREDS_DIR` to the directory where you'd like to store the config. This is useful when running in docker for example.\n\n##### Connecting spotify skill\nAfter installing `dobo-spotify`, from the dobo-core folder run the auth.py script in the dobo-spotify folder\n\n```\nsource venv-activate.sh\npython /opt/dobo/skills/dobo-spotify.forslund/auth.py\n```\n\nThe script will try to guide you through connecting a developer account to the skill and store the credentials locally.\n\n#### Username and password to authenticate a Mycroft device\nIn addition to account details, Mycroft needs to be authorized as a **device** for Spotify. To do this, we use your username and password for Spotify. These must be entered as well, or you will receive an error message like:\n\n`I couldn't find any Spotify devices.  This skill requires a Spotify Premium account to work properly.`\n\nwhen you try to use the **Skill** on a Mycroft device.\n\nIf you log in to Spotify using Facebook, your password will be your _Facebook_ password, but your Spotify device username. You can get your Spotify device username [here](https://www.spotify.com/us/account/set-device-password/).\n\n_NOTE: You MUST have a Premium Spotify account to use this **Skill**. It will NOT work with a free Spotify account._",
         "examples": [
             "What Spotify devices are available?",
             "Play discover weekly.",
@@ -914,12 +914,12 @@
         ],
         "icon_img": "https://rawcdn.githack.com/forslund/spotify-skill/05c19c0fba8a4af150c6eb8cf2e955d59ac83d15/Spotify_Icon.png"
     },
-    "mycroft-stop": {
-        "skill_gid": "mycroft-stop|21.02",
+    "dobo-stop": {
+        "skill_gid": "dobo-stop|21.02",
         "repo": "https://github.com/MycroftAI/skill-stop",
         "tree": "59220d4ce314c9ddfa0b0e127c9dc1ee310b0d2a",
-        "name": "mycroft-stop",
-        "github_username": "mycroftai",
+        "name": "dobo-stop",
+        "github_username": "doboai",
         "title": "System",
         "display_name": "System",
         "short_desc": "General system control",
@@ -933,8 +933,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -951,16 +951,16 @@
             "color": "#40DBB0"
         }
     },
-    "mycroft-support-helper": {
-        "skill_gid": "mycroft-support-helper|21.02",
+    "dobo-support-helper": {
+        "skill_gid": "dobo-support-helper|21.02",
         "repo": "https://github.com/MycroftAI/skill-support",
         "tree": "d812b281ed9ec82fbff424cb009e4b369d23dfbf",
-        "name": "mycroft-support-helper",
-        "github_username": "mycroftai",
+        "name": "dobo-support-helper",
+        "github_username": "doboai",
         "title": "Support",
         "display_name": "Support",
         "short_desc": "Capture information for Mycroft support",
-        "description": "This Skill generates a package with debugging information and emails it to the email address registered in your [home.mycroft.ai](https://home.mycroft.ai) account. This package can be used for debugging issues yourself, or alternatively it can be emailed to Mycroft to create a support request.\n\nThe package contains all of your `mycroft-core` logs on the Device, and information about active Skills and Intents at the time the support request was generated.\n\nThis uses the [0x0.st](https://0x0.st/) service for storing the debugging information.",
+        "description": "This Skill generates a package with debugging information and emails it to the email address registered in your [home.dobo.ai](https://home.dobo.ai) account. This package can be used for debugging issues yourself, or alternatively it can be emailed to Mycroft to create a support request.\n\nThe package contains all of your `dobo-core` logs on the Device, and information about active Skills and Intents at the time the support request was generated.\n\nThis uses the [0x0.st](https://0x0.st/) service for storing the debugging information.",
         "examples": [
             "Create a support ticket.",
             "You're not working!",
@@ -968,8 +968,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -989,12 +989,12 @@
         ],
         "icon_img": "https://rawgit.com/FortAwesome/Font-Awesome/master/svgs/solid/life-ring.svg"
     },
-    "mycroft-timer": {
-        "skill_gid": "mycroft-timer|21.02",
-        "repo": "https://github.com/MycroftAI/mycroft-timer",
+    "dobo-timer": {
+        "skill_gid": "dobo-timer|21.02",
+        "repo": "https://github.com/MycroftAI/dobo-timer",
         "tree": "38ccb2c362fe5ecc228797ef4102d0a62f7107fd",
-        "name": "mycroft-timer",
-        "github_username": "mycroftai",
+        "name": "dobo-timer",
+        "github_username": "doboai",
         "title": "Timer",
         "display_name": "Timer",
         "short_desc": "Set named timers for cooking, watering plants, brewing tea and more.  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
@@ -1011,8 +1011,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1030,16 +1030,16 @@
             "color": "#40DBB0"
         }
     },
-    "mycroft-weather": {
-        "skill_gid": "mycroft-weather|21.02",
+    "dobo-weather": {
+        "skill_gid": "dobo-weather|21.02",
         "repo": "https://github.com/MycroftAI/skill-weather",
         "tree": "fb5304b189547c55618f6ced64f9ab8164b22aa2",
-        "name": "mycroft-weather",
-        "github_username": "mycroftai",
+        "name": "dobo-weather",
+        "github_username": "doboai",
         "title": "Weather",
         "display_name": "Weather",
         "short_desc": "Weather conditions and forecasts  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
-        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default, it will tell\nyou about your device's configured location. You can also ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences\nset in your [https://home.mycroft.ai](https://home.mycroft.ai) account.  You can ask\nspecifically for a unit that differs from your configuration.",
+        "description": "Get weather conditions, forecasts, expected precipitation and more!  By default, it will tell\nyou about your device's configured location. You can also ask for other cities around the world.\n\nCurrent conditions and weather forecasts come from [Open Weather Map](https://openweathermap.org).\n\nThe temperature is shown in Celsius or Fahrenheit depending on the preferences\nset in your [https://home.dobo.ai](https://home.dobo.ai) account.  You can ask\nspecifically for a unit that differs from your configuration.",
         "examples": [
             "What is the weather?",
             "What is the weather in Houston?",
@@ -1061,8 +1061,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1084,16 +1084,16 @@
             "color": "#FEE255"
         }
     },
-    "mycroft-version-checker": {
-        "skill_gid": "mycroft-version-checker|21.02",
+    "dobo-version-checker": {
+        "skill_gid": "dobo-version-checker|21.02",
         "repo": "https://github.com/MycroftAI/skill-version-checker",
         "tree": "1b04bbee3e7d6019aebb95ccc0333672ef3df01f",
-        "name": "mycroft-version-checker",
-        "github_username": "mycroftai",
+        "name": "dobo-version-checker",
+        "github_username": "doboai",
         "title": "Version Checker",
         "display_name": "Version Checker",
         "short_desc": "Report the version of your Mycroft",
-        "description": "Report the version of your Mycroft install (`mycroft-core`) and of the platform you are running on - ie\n> Mycroft Mark 1, version 18.2.13 beta.",
+        "description": "Report the version of your Mycroft install (`dobo-core`) and of the platform you are running on - ie\n> Mycroft Mark 1, version 18.2.13 beta.",
         "examples": [
             "Check version.",
             "What version are you running?",
@@ -1101,8 +1101,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1123,12 +1123,12 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-wiki": {
-        "skill_gid": "mycroft-wiki|21.02",
+    "dobo-wiki": {
+        "skill_gid": "dobo-wiki|21.02",
         "repo": "https://github.com/MycroftAI/skill-wiki",
         "tree": "4fee1d988a2f73fc4b23e1d98371d5eed169f72f",
-        "name": "mycroft-wiki",
-        "github_username": "mycroftai",
+        "name": "dobo-wiki",
+        "github_username": "doboai",
         "title": "Wikipedia",
         "display_name": "Wikipedia",
         "short_desc": "Wikipedia",
@@ -1145,8 +1145,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1168,12 +1168,12 @@
             "color": "#000000"
         }
     },
-    "mycroft-volume": {
-        "skill_gid": "mycroft-volume|21.02",
+    "dobo-volume": {
+        "skill_gid": "dobo-volume|21.02",
         "repo": "https://github.com/MycroftAI/skill-volume",
         "tree": "2d33bb121142354dc7f59331a1e9cf7fad53ce31",
-        "name": "mycroft-volume",
-        "github_username": "mycroftai",
+        "name": "dobo-volume",
+        "github_username": "doboai",
         "title": "Volume Control",
         "display_name": "Volume Control",
         "short_desc": "Control the volume of your system",
@@ -1187,8 +1187,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1208,15 +1208,15 @@
             "color": "#22a7f0"
         }
     },
-    "mycroft-release-test": {
-        "skill_gid": "mycroft-release-test|21.02",
+    "dobo-release-test": {
+        "skill_gid": "dobo-release-test|21.02",
         "repo": "https://github.com/MycroftAI/skill-release-test",
         "tree": "99e5ccdd0c1cf8f55dd5cf17f09bdc2920987350",
-        "name": "mycroft-release-test",
-        "github_username": "mycroftai",
+        "name": "dobo-release-test",
+        "github_username": "doboai",
         "title": "Release Test",
         "display_name": "Release Test",
-        "short_desc": "Tool used by Mycroft  internal Quality Assurance team when validating a new `mycroft-core` release",
+        "short_desc": "Tool used by Mycroft  internal Quality Assurance team when validating a new `dobo-core` release",
         "description": "When a new release is being tested, this skill is installed to verify the\ninstallation mechanism functions properly.  Additionally, the following line\nis edited to verify that the skill update process occurs as intended.\n\nTest line:  2018/10/23 23:14.",
         "examples": [
             "Run the release test (should respond with 'Test passed')",
@@ -1224,8 +1224,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1256,7 +1256,7 @@
         "github_username": "zelmon64",
         "title": "Finished Booting Skill",
         "display_name": "Finished Booting Skill",
-        "short_desc": "Skill to determine when Mycroft AI has finished booting up",
+        "short_desc": "Skill to determine when Dobo AI has finished booting up",
         "description": "With this skill Mycroft will say when the boot up period has finished and is ready to receive commands.",
         "examples": [],
         "credits": [
@@ -1282,7 +1282,7 @@
         "repo": "https://github.com/MycroftAI/skill-query",
         "tree": "4bfc2618b05bd60c16510f318c203d23b431761b",
         "name": "fallback-query",
-        "github_username": "MycroftAI",
+        "github_username": "DoboAI",
         "title": "Query",
         "display_name": "Query",
         "short_desc": "Negotiates the best answer to a question",
@@ -1294,8 +1294,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1312,16 +1312,16 @@
             "color": "#40DBB0"
         }
     },
-    "mycroft-wink-iot": {
-        "skill_gid": "mycroft-wink-iot|21.02",
+    "dobo-wink-iot": {
+        "skill_gid": "dobo-wink-iot|21.02",
         "repo": "https://github.com/MycroftAI/skill-wink-iot",
         "tree": "3ed66d835eed32a716bb088f1bf7cd75aea338ee",
-        "name": "mycroft-wink-iot",
-        "github_username": "MycroftAI",
+        "name": "dobo-wink-iot",
+        "github_username": "DoboAI",
         "title": "Wink IoT",
         "display_name": "Wink IoT",
         "short_desc": "Control lights and switches connected to a Wink Hub",
-        "description": "Interact with your smart home using the [Wink system](https://www.wink.com/).  Wink hubs can work with virtually any brand of lights, including [Philips Hue](https://www2.meethue.com/en-us), [GE](https://www.gelighting.com/), [Sylvania](https://www.sylvania.com/en-us/Pages/default.aspx), [Cree](https://creebulb.com/connected), and many more.  Use Mycroft to easily interact with nearby lights and light groups you create within the Wink ecosystem.\n\nYour can easily find the right light or lights based on the names of lights and groups.  The Mycroft device's Name (set at [Home](https://home.mycroft.ai/) -- check by asking \"what is your name?\")\ncan be used to find lights and/or groups with begin with that same name. For example, if your Mycroft device's location is set to 'Kitchen' and you say \"Turn on the light\", lights with the following names would be turned on:\n\n* Kitchen\n* Kitchen sink\n* Kitchen fan (group consisting of 'Fan 1', 'Fan 2', 'Fan 3')\nIt will NOT turn on a light called \"Porch off the kitchen\".\n\nYou can also include the light/group name in your request, along with intensity words, such as: `bright`, `dim`, `full`, `half`, `completely`, `partially`",
+        "description": "Interact with your smart home using the [Wink system](https://www.wink.com/).  Wink hubs can work with virtually any brand of lights, including [Philips Hue](https://www2.meethue.com/en-us), [GE](https://www.gelighting.com/), [Sylvania](https://www.sylvania.com/en-us/Pages/default.aspx), [Cree](https://creebulb.com/connected), and many more.  Use Mycroft to easily interact with nearby lights and light groups you create within the Wink ecosystem.\n\nYour can easily find the right light or lights based on the names of lights and groups.  The Mycroft device's Name (set at [Home](https://home.dobo.ai/) -- check by asking \"what is your name?\")\ncan be used to find lights and/or groups with begin with that same name. For example, if your Mycroft device's location is set to 'Kitchen' and you say \"Turn on the light\", lights with the following names would be turned on:\n\n* Kitchen\n* Kitchen sink\n* Kitchen fan (group consisting of 'Fan 1', 'Fan 2', 'Fan 3')\nIt will NOT turn on a light called \"Porch off the kitchen\".\n\nYou can also include the light/group name in your request, along with intensity words, such as: `bright`, `dim`, `full`, `half`, `completely`, `partially`",
         "examples": [
             "Flip on the light.",
             "Turn on the bedroom lights dimly.",
@@ -1333,8 +1333,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -1406,7 +1406,7 @@
         "title": "AIML Chatbot",
         "display_name": "AIML Chatbot",
         "short_desc": "Give Mycroft some sass with AIML!",
-        "description": "The fallback leverages the [Alice chatbot](https://www.chatbots.org/chatbot/a.l.i.c.e/) to create some fun interactions.  Phrases not explicitly handled by other skills will be run by the chatbot, so nearly every interaction will have _some_ response.  But be warned, Mycroft might become a bit obnoxious...\n\nThe AIML takes up a considerable amount of memory so the skill is disabled by default. To enable go to Skillsettings under home.mycroft.ai\n\nThis is based on the original work of [JarbasAI](https://github.com/JarbasAI) with updates from all over the Mycroft community.",
+        "description": "The fallback leverages the [Alice chatbot](https://www.chatbots.org/chatbot/a.l.i.c.e/) to create some fun interactions.  Phrases not explicitly handled by other skills will be run by the chatbot, so nearly every interaction will have _some_ response.  But be warned, Mycroft might become a bit obnoxious...\n\nThe AIML takes up a considerable amount of memory so the skill is disabled by default. To enable go to Skillsettings under home.dobo.ai\n\nThis is based on the original work of [JarbasAI](https://github.com/JarbasAI) with updates from all over the Mycroft community.",
         "examples": [
             "Do you like ice cream.",
             "Do you like dogs.",
@@ -1521,7 +1521,7 @@
         "title": "Plasma Activites",
         "display_name": "Plasma Activites",
         "short_desc": "Control Your Plasmashell Activities",
-        "description": "This skill integrates plasma-shell activities with mycroft which enables users to control their desktop activities via voice on the go, users can create activities, switch, remove, stop and display activities on their desktops.",
+        "description": "This skill integrates plasma-shell activities with dobo which enables users to control their desktop activities via voice on the go, users can create activities, switch, remove, stop and display activities on their desktops.",
         "examples": [
             "Create new activity 'Activity Name.",
             "Show current Activities.",
@@ -1707,7 +1707,7 @@
         "repo": "https://github.com/MycroftAI/skill-homeassistant",
         "tree": "985c4013205d0ef3a55fc7aa3859f52cf1796e9b",
         "name": "homeassistant",
-        "github_username": "MycroftAI",
+        "github_username": "DoboAI",
         "title": "Home Assistant",
         "display_name": "Home Assistant",
         "short_desc": "Awaken your home - Control Home Assistant",
@@ -1731,8 +1731,8 @@
                 "github_id": "btotharye"
             },
             {
-                "name": "Mycroft AI",
-                "github_id": "mycroftai"
+                "name": "Dobo AI",
+                "github_id": "doboai"
             }
         ],
         "categories": [
@@ -1747,7 +1747,7 @@
             "homeassistant",
             "smarthome"
         ],
-        "icon_img": "https://raw.githubusercontent.com/MycroftAI/skill-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/docs/home-assistant.png"
+        "icon_img": "https://raw.githubusercontent.com/DoboAI/skill-homeassistant/985c4013205d0ef3a55fc7aa3859f52cf1796e9b/docs/home-assistant.png"
     },
     "picroft-google-aiy-voicekit": {
         "skill_gid": "picroft-google-aiy-voicekit|21.02",
@@ -1830,7 +1830,7 @@
         "title": "THEIA IDE",
         "display_name": "THEIA IDE",
         "short_desc": "Installs and setup THEIA IDE locally on your device. Real VS Code experience",
-        "description": "This skill installs Theia IDE on your Mycroft device. This is an easy way to make and edit skills\nwith integratio to Github, and tools like mycroft-msm and mycroft-msk directly from the integrated\nshell.\n\nTheia provides Microsoft VS Code experience in the browser.\n\n### New in this release\n* Installer rewrite so picroft is downloading precompiled package and prepaired for other precompiled\npackages for other platforms. Installer wil always install latest Theia-for-Mycroft from\nhttps://github.com/andlo/theia-for-mycroft/\n* Installer Builds and compile on systems where there isnt precompiled package for if system has more\nthan 4 Gb memmory.\n* No more support for Mark_1 as debian jessie isnt supported and theia cant build properly.\n* Added workspace setting on home.mycroft.at. Default to skills directory.\n* Debug is working by using PTVSD, but requere remote-debug skill to activate and inject\ndebug adaptor https://github.com/andlo/remote-debug-skill and change settings for padatious\nsingle_thread. remote-debug skills is at time of writing on way to market and PR to makea setting\nfor controling padatious single_thread is on its way to mycroft.core.\n\n\nhttps://www.theia-ide.org/index.html\n\n<img src='https://raw.githubusercontent.com/andlo/theia-ide-skill/master/screenshot.png' card_color='#40DBB0' width=800 style='vertical-align:bottom'/>",
+        "description": "This skill installs Theia IDE on your Mycroft device. This is an easy way to make and edit skills\nwith integratio to Github, and tools like dobo-msm and dobo-msk directly from the integrated\nshell.\n\nTheia provides Microsoft VS Code experience in the browser.\n\n### New in this release\n* Installer rewrite so picroft is downloading precompiled package and prepaired for other precompiled\npackages for other platforms. Installer wil always install latest Theia-for-Mycroft from\nhttps://github.com/andlo/theia-for-dobo/\n* Installer Builds and compile on systems where there isnt precompiled package for if system has more\nthan 4 Gb memmory.\n* No more support for Mark_1 as debian jessie isnt supported and theia cant build properly.\n* Added workspace setting on home.dobo.at. Default to skills directory.\n* Debug is working by using PTVSD, but requere remote-debug skill to activate and inject\ndebug adaptor https://github.com/andlo/remote-debug-skill and change settings for padatious\nsingle_thread. remote-debug skills is at time of writing on way to market and PR to makea setting\nfor controling padatious single_thread is on its way to dobo.core.\n\n\nhttps://www.theia-ide.org/index.html\n\n<img src='https://raw.githubusercontent.com/andlo/theia-ide-skill/master/screenshot.png' card_color='#40DBB0' width=800 style='vertical-align:bottom'/>",
         "examples": [
             "Run IDE.",
             "End theia IDE.",
@@ -1987,8 +1987,8 @@
         "github_username": "luke5sky",
         "title": "Remember",
         "display_name": "Remember",
-        "short_desc": "Ask MyCroft to remember things for you",
-        "description": "You can ask MyCroft to remember and forget things.\nIt will store everything in a list locally on your device.",
+        "short_desc": "Ask Dobo to remember things for you",
+        "description": "You can ask Dobo to remember and forget things.\nIt will store everything in a list locally on your device.",
         "examples": [
             "Remember take the trash out.",
             "What did you remember?",
@@ -2027,7 +2027,7 @@
         "title": "Laugh",
         "display_name": "Laugh",
         "short_desc": "Makes Mycroft laugh like a maniac  ![](./sshot.png)",
-        "description": "Laugh randomly or when requested, gender configurable on home.mycroft.ai.",
+        "description": "Laugh randomly or when requested, gender configurable on home.dobo.ai.",
         "examples": [
             "Laugh like Alexa.",
             "Can you laugh."
@@ -2100,7 +2100,7 @@
         "title": "Telegram",
         "display_name": "Telegram",
         "short_desc": "A skill to control your Mycroft instance through a TelegramBot",
-        "description": "You need to create a telegram bot (via BotFather) and save the Bot Token, your ChatID and your MyCroft Device name on home.mycroft.ai under skill settings.\nYou can now commmunicate with your MyCroft Unit via this bot.\n\nSettings:\n- BOT TOKEN (MANDATORY): Your bot token you got from BotFather\n- DEVICE NAME (CASE SENSITIVE | MANDATORY): Your Device name you configured on home.mycroft.ai - Devices - Registered Devices\n- BOT TOKEN SECOND MYCROFT DEVICE (OPTIONAL): If you have a second Mycroft Device and you want to use this skill with it -> put your second bot token here (it has to be an other bot than the first one because telegram only allows one device to get updates from one bot)\n- SECOND MYCROFT DEVICE NAME (IF YOU HAVE A SECOND DEVICE): Your Device name from your second Device you configured on home.mycroft.ai - Devices - Registered Devices\n- PRIMARY USERNAME (OPTIONAL): You do not need to put anything here, the skill does not use this field. It is only for yourself to know which Chat ID belongs to whom\n- PRIMARY CHAT ID (MANDATORY): You will get your Chat ID from the Telegram-Skill if you have configured BOT TOKEN (first field) and DEVICE NAME, saved and then write anything to the bot.\n- SECOND USERNAME (OPTIONAL): For second User if you have one\n- SECOND CHAT ID (IF YOU HAVE A SECOND USER): Same as PRIMARY CHAT ID with Telegram-Account of second user\n\nDetailed HowTo:\n\n- Install this skill on your Mycroft Device\n\n- Create a telegram bot:\nOpen Telegram App on your smartphone, click on the search symbol in the upper right corner<br/>\nSearch for BotFather and click on it<br/>\nNow type /newbot hit enter<br/>\nBotfather should reply with: Alright, a new bot. How are we going to call it? please chosse a name for your bot.<br/>\nGive your bot a displayname like Mycroft<br/>\nBotfather should reply with: Good. Now let's choose a username for your bot. It must end in bot. Like this, for example: TetrisBot or tetris-bot.<br/>\nGive your bot unique username like lukesmycroftbot<br/>\nBotfather should now give you your token for this bot<br/>\nSave this token and don't post it online or send it to people, safety first!<br/>\n\nTelegram documentation on botfather: https://core.telegram.org/bots#6-botfather\n\n- Go to home.mycroft.ai - skills and search for the telegram-skills settings\n\n- Copy/paste your token botfather gave you in the field BOT TOKEN (MANDATORY)\n\n- Copy/paste your device name from home.mycroft.ai - devices in DEVICE NAME (CASE SENSITIVE | MANDATORY)\n\n- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)\n\n- Open Telegram App on your smartphone and search (upper right corner) for your bot (username or displayname) click on it and write test or hello to your bot\nIt should respond with: This is your ChatID: YOURCHATID\n\n- Copy/paste this under PRIMARY CHAT ID (MANDATORY)\n\n- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)\n\n- On every reboot your bot should send you this welcome message: Telegram-Skill on Mycroft Unit YOURUNIT is loaded and ready to use.",
+        "description": "You need to create a telegram bot (via BotFather) and save the Bot Token, your ChatID and your Dobo Device name on home.dobo.ai under skill settings.\nYou can now commmunicate with your Dobo Unit via this bot.\n\nSettings:\n- BOT TOKEN (MANDATORY): Your bot token you got from BotFather\n- DEVICE NAME (CASE SENSITIVE | MANDATORY): Your Device name you configured on home.dobo.ai - Devices - Registered Devices\n- BOT TOKEN SECOND MYCROFT DEVICE (OPTIONAL): If you have a second Mycroft Device and you want to use this skill with it -> put your second bot token here (it has to be an other bot than the first one because telegram only allows one device to get updates from one bot)\n- SECOND MYCROFT DEVICE NAME (IF YOU HAVE A SECOND DEVICE): Your Device name from your second Device you configured on home.dobo.ai - Devices - Registered Devices\n- PRIMARY USERNAME (OPTIONAL): You do not need to put anything here, the skill does not use this field. It is only for yourself to know which Chat ID belongs to whom\n- PRIMARY CHAT ID (MANDATORY): You will get your Chat ID from the Telegram-Skill if you have configured BOT TOKEN (first field) and DEVICE NAME, saved and then write anything to the bot.\n- SECOND USERNAME (OPTIONAL): For second User if you have one\n- SECOND CHAT ID (IF YOU HAVE A SECOND USER): Same as PRIMARY CHAT ID with Telegram-Account of second user\n\nDetailed HowTo:\n\n- Install this skill on your Mycroft Device\n\n- Create a telegram bot:\nOpen Telegram App on your smartphone, click on the search symbol in the upper right corner<br/>\nSearch for BotFather and click on it<br/>\nNow type /newbot hit enter<br/>\nBotfather should reply with: Alright, a new bot. How are we going to call it? please chosse a name for your bot.<br/>\nGive your bot a displayname like Mycroft<br/>\nBotfather should reply with: Good. Now let's choose a username for your bot. It must end in bot. Like this, for example: TetrisBot or tetris-bot.<br/>\nGive your bot unique username like lukesdobobot<br/>\nBotfather should now give you your token for this bot<br/>\nSave this token and don't post it online or send it to people, safety first!<br/>\n\nTelegram documentation on botfather: https://core.telegram.org/bots#6-botfather\n\n- Go to home.dobo.ai - skills and search for the telegram-skills settings\n\n- Copy/paste your token botfather gave you in the field BOT TOKEN (MANDATORY)\n\n- Copy/paste your device name from home.dobo.ai - devices in DEVICE NAME (CASE SENSITIVE | MANDATORY)\n\n- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)\n\n- Open Telegram App on your smartphone and search (upper right corner) for your bot (username or displayname) click on it and write test or hello to your bot\nIt should respond with: This is your ChatID: YOURCHATID\n\n- Copy/paste this under PRIMARY CHAT ID (MANDATORY)\n\n- SAVE and wait till the settings are synced to your Mycroft Unit (or reboot your device to trigger the sync)\n\n- On every reboot your bot should send you this welcome message: Telegram-Skill on Mycroft Unit YOURUNIT is loaded and ready to use.",
         "examples": [],
         "credits": [
             {
@@ -2284,7 +2284,7 @@
         "title": "ISS Tracker",
         "display_name": "ISS Tracker",
         "short_desc": "Where is the international space station - ISS",
-        "description": "This skill allows mycroft to tell you where the International Space Station (ISS) is in orbit, realtive\nto the earth in latitude and longitude. it uses reverse geocoding to translate these coordinates\ninto the country or body of water it is over.",
+        "description": "This skill allows dobo to tell you where the International Space Station (ISS) is in orbit, realtive\nto the earth in latitude and longitude. it uses reverse geocoding to translate these coordinates\ninto the country or body of water it is over.",
         "examples": [
             "Where is the international space station?",
             "Locate I S S.",
@@ -2325,7 +2325,7 @@
         "title": "Dice",
         "display_name": "Dice",
         "short_desc": "Generates random numbers for you",
-        "description": "This skill enables mycroft to generate random numbers for you.\nYou either need to specify a range or type of dice (e.g. d20).\n\nPerfect whenever you need to generate a random number, but don't have a dice nearby.",
+        "description": "This skill enables dobo to generate random numbers for you.\nYou either need to specify a range or type of dice (e.g. d20).\n\nPerfect whenever you need to generate a random number, but don't have a dice nearby.",
         "examples": [
             "Roll a dice.",
             "Roll a d20.",
@@ -2403,12 +2403,12 @@
         ],
         "icon_img": "https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536849_960_720.png"
     },
-    "mycroft-mark-2": {
-        "skill_gid": "mycroft-mark-2|21.02",
+    "dobo-mark-2": {
+        "skill_gid": "dobo-mark-2|21.02",
         "repo": "https://github.com/MycroftAI/skill-mark-2",
         "tree": "1cc16523cd8959bd45a6eec62a35784c69ad05bc",
-        "name": "mycroft-mark-2",
-        "github_username": "mycroftai",
+        "name": "dobo-mark-2",
+        "github_username": "doboai",
         "title": "Mycroft Mark 2",
         "display_name": "Mycroft Mark 2",
         "short_desc": "Customize your Mark 2",
@@ -2420,8 +2420,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -2451,7 +2451,7 @@
         "title": "Learning",
         "display_name": "Learning",
         "short_desc": "Teach Mycroft knowledge and humor",
-        "description": "This Skill helps to give Mycroft a personality by learning any new information that you provide.\nif mycroft not understood mycroft you. you can immediately train the previous request by saying \"I want to explain it\" or \"houmor is probably not your strength\".\nthen you do not have to do everything from the beginning.",
+        "description": "This Skill helps to give Mycroft a personality by learning any new information that you provide.\nif dobo not understood dobo you. you can immediately train the previous request by saying \"I want to explain it\" or \"houmor is probably not your strength\".\nthen you do not have to do everything from the beginning.",
         "examples": [
             "Do you want to learn something.",
             "Do you already know this.",
@@ -2494,7 +2494,7 @@
         "title": "List Manager",
         "display_name": "List Manager",
         "short_desc": "Access and manage lists with Mycroft",
-        "description": "*List Manager* is a simple utility for filing lists of things you don't want to forget.\nWhether these are titles of books to read, the specs of your new bike, or random thoughts for a new programming project; you can ask [Mycroft](https://mycroft.ai/) to create a list for each them!",
+        "description": "*List Manager* is a simple utility for filing lists of things you don't want to forget.\nWhether these are titles of books to read, the specs of your new bike, or random thoughts for a new programming project; you can ask [Mycroft](https://dobo.ai/) to create a list for each them!",
         "examples": [
             "What lists do I have?",
             "What's on my important list?",
@@ -2564,8 +2564,8 @@
             "sample",
             "example",
             "delegates",
-            "mycroftgui",
-            "mycroft-gui"
+            "dobogui",
+            "dobo-gui"
         ],
         "icon": {
             "icon": "user-astronaut",
@@ -2666,7 +2666,7 @@
         "title": "Bark",
         "display_name": "Bark",
         "short_desc": "Barks like a dog",
-        "description": "Ask mycroft to bark and it will say ruff.",
+        "description": "Ask dobo to bark and it will say ruff.",
         "examples": [
             "Bark.",
             "What does a dog say?",
@@ -2845,7 +2845,7 @@
         "title": "National Parks",
         "display_name": "National Parks",
         "short_desc": "Information on US National Parks",
-        "description": "Get listings of US National Parks by state, have Mycroft read descriptions of  national parks and even test your knowledge of where National Parks are located.\n\nTo use this skill  you will need to obtain an API key from the [National Park Service](https://www.nps.gov/subjects/developer/get-started.htm).  Just follow the link and fill in the form, it's free and you will not be required to create an account.  When the skill is installed there will be a new settings entry in the Skills section of [Mycroft Home](https://home.mycroft.ai) under National Parks.  Paste in your API key and click the Save button.  As soon as the skill picks up the API key it will be able to connect to the NPS servers.\n\nFor the purpose of this skill the term \"National Park\" is used loosely to refer to almost any property managed by the US National Park Service.  Properties with a designation of  National Monument, National Historic Site or National Recreation Area will be included in park listings.   The only designation that is explicitly excluded from park listings is National Historic Trail.  All information is provided by the National Park Service.\n\nWhen asking for a park description the skill will do a search on the words given, so one does not need to say the complete park name.  For example, 'describe Edgar national park\", \"describe Edgar Allan national park\" and \"describe Edgar Allan Poe national park\" will all provide a description of Edgar Allan Poe National Historic Site.\n\nSince definite articles are dropped from speech, searches for descriptions of some properties will fail if they are included.  For example, trying to hear a description of Rosie the Riveter WWII Home Front National Historical Park by saying \"describe Rosie the Riveter national park\" will fail but \"describe Rosie national park\" and \"describe Riveter national park\" will succeed.\n\nAfter asking to be quizzed Mycroft will ask what state a particular National Park Service property is in.  The answer may be spoken after the beep without using the wake word but there will only be a few seconds to answer.  If Mycroft does not respond to the answer use the wake word with \"Repeat national parks quiz\" and answer after the beep.",
+        "description": "Get listings of US National Parks by state, have Mycroft read descriptions of  national parks and even test your knowledge of where National Parks are located.\n\nTo use this skill  you will need to obtain an API key from the [National Park Service](https://www.nps.gov/subjects/developer/get-started.htm).  Just follow the link and fill in the form, it's free and you will not be required to create an account.  When the skill is installed there will be a new settings entry in the Skills section of [Mycroft Home](https://home.dobo.ai) under National Parks.  Paste in your API key and click the Save button.  As soon as the skill picks up the API key it will be able to connect to the NPS servers.\n\nFor the purpose of this skill the term \"National Park\" is used loosely to refer to almost any property managed by the US National Park Service.  Properties with a designation of  National Monument, National Historic Site or National Recreation Area will be included in park listings.   The only designation that is explicitly excluded from park listings is National Historic Trail.  All information is provided by the National Park Service.\n\nWhen asking for a park description the skill will do a search on the words given, so one does not need to say the complete park name.  For example, 'describe Edgar national park\", \"describe Edgar Allan national park\" and \"describe Edgar Allan Poe national park\" will all provide a description of Edgar Allan Poe National Historic Site.\n\nSince definite articles are dropped from speech, searches for descriptions of some properties will fail if they are included.  For example, trying to hear a description of Rosie the Riveter WWII Home Front National Historical Park by saying \"describe Rosie the Riveter national park\" will fail but \"describe Rosie national park\" and \"describe Riveter national park\" will succeed.\n\nAfter asking to be quizzed Mycroft will ask what state a particular National Park Service property is in.  The answer may be spoken after the beep without using the wake word but there will only be a few seconds to answer.  If Mycroft does not respond to the answer use the wake word with \"Repeat national parks quiz\" and answer after the beep.",
         "examples": [
             "List national parks in Utah.",
             "Describe Yellowstone national park.",
@@ -2873,15 +2873,15 @@
             "color": "#40DBB0"
         }
     },
-    "lifx-mycroft": {
-        "skill_gid": "lifx-mycroft|21.02",
-        "repo": "https://github.com/samclane/lifx-mycroft",
+    "lifx-dobo": {
+        "skill_gid": "lifx-dobo|21.02",
+        "repo": "https://github.com/samclane/lifx-dobo",
         "tree": "4ce8dabf2fa2d198289cdfd04ebc78ec2e616dc1",
-        "name": "lifx-mycroft",
+        "name": "lifx-dobo",
         "github_username": "samclane",
-        "title": "lifx-mycroft",
-        "display_name": "lifx-mycroft",
-        "short_desc": "A mycroft skill to control LIFX brand smart-bulbs",
+        "title": "lifx-dobo",
+        "display_name": "lifx-dobo",
+        "short_desc": "A dobo skill to control LIFX brand smart-bulbs",
         "description": "Allows users to interact with the LIFX-brand smartbulbs on their home network through Mycroft. Can change power, brightness, color, and color-temperature of individual Lights and predefined Groups.",
         "examples": [
             "Turn off the bedroom light.",
@@ -2926,7 +2926,7 @@
         "title": "Myepisodes",
         "display_name": "Myepisodes",
         "short_desc": "Check the status of your [myepisodes.com](http://www.myepisodes.com) show list",
-        "description": "You will be able to ask mycroft to check the status of your shows list handled by [myepisodes.com](http://www.myepisodes.com).\n\nmycroft will be able to give you the number of episodes not acquired and optionally the number of episodes acquired but not watched.\n\nalso you will be able to find out the unacquired seasons and episdes numbers.",
+        "description": "You will be able to ask dobo to check the status of your shows list handled by [myepisodes.com](http://www.myepisodes.com).\n\ndobo will be able to give you the number of episodes not acquired and optionally the number of episodes acquired but not watched.\n\nalso you will be able to find out the unacquired seasons and episdes numbers.",
         "examples": [
             "Check my episodes.",
             "Any new episodes.",
@@ -2964,7 +2964,7 @@
         "repo": "https://github.com/MycroftAI/skill-pandora",
         "tree": "20876899af15493adcdbe2c03a53c568e0b89f80",
         "name": "pandora",
-        "github_username": "MycroftAI",
+        "github_username": "DoboAI",
         "title": "Pandora",
         "display_name": "Pandora",
         "short_desc": "Listen to the Pandora music service",
@@ -2979,8 +2979,8 @@
         ],
         "credits": [
             {
-                "name": "Mycroft AI",
-                "github_id": "MycroftAI"
+                "name": "Dobo AI",
+                "github_id": "DoboAI"
             }
         ],
         "categories": [
@@ -3004,7 +3004,7 @@
         "repo": "https://github.com/MycroftAI/skill-camera",
         "tree": "a52e306f99d6a4468f3998ae85196f52bbcdad73",
         "name": "camera",
-        "github_username": "MycroftAI",
+        "github_username": "DoboAI",
         "title": "Camera Skill",
         "display_name": "Camera Skill",
         "short_desc": "Take photo's",
@@ -3045,7 +3045,7 @@
         "repo": "https://github.com/MycroftAI/skill-homescreen",
         "tree": "b72800a2dd3518029541e092d49c1971f3ef56b6",
         "name": "homescreen",
-        "github_username": "MycroftAI",
+        "github_username": "DoboAI",
         "title": "Homescreen",
         "display_name": "Homescreen",
         "short_desc": "A configurable home screen",
@@ -3059,7 +3059,7 @@
                 "github_id": "AIIX"
             },
             {
-                "name": "* Mycroft AI"
+                "name": "* Dobo AI"
             }
         ],
         "categories": [
